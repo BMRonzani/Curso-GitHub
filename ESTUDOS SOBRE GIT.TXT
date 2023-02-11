@@ -23,4 +23,16 @@ os comandos nativos são precedidos de dois traços: ex. --help
 
 //---
 
+CONFIGURANDO CREDENCIAIS
+Para configurar o usar name e e-mail, devem ser utilizados os seguintes comandos:
+
+git config --global user.name "dev" (entre as aspas deve ser inserido o user name)
+Para verificar o user name configurado, deve ser usado o comando:
+git config user.name
+
+git config --global user.email "@gmail.com" (entre as aspas deve ser inserido o user name)
+Para verificar o user name configurado, deve ser usado o comando:
+git config user.email
+
+
 
