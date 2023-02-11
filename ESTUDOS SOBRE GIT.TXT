@@ -65,7 +65,10 @@ Com esse comando, a respectiva pasta começa a ser reconhecida como um repositó
 A pasta relacionada ao repositório é uma pasta oculta do tipo .git
 
 Nessa etapa, ainda será necessário realizar a adição com o camando, para que os arquivos de determinada pasta seja monitorado pelo git 
-git add
+git add (deve ser colocado o nome do arquivo com sua respectiva extensão, por ex. nomedoarquivo.txt)
+caso queira adicionar todos os arquivos da pasta, basta escrever o comando: git add . (espaço e ponto, para pegar todos os arquivos e todas as extensões)
+
+
 
 Posteriormente, será necessário realizar o "commit"
 
