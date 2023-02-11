@@ -36,6 +36,7 @@ git config user.email
 
 FUNDAMENTOS
 //---
+
 * Repositório (repo) --- online e offline
 Local onde os arquivos e projetos ficam armazenados 
 Gerenciameento de versões - features (recursos, característica)
@@ -43,10 +44,33 @@ Gerenciameento de versões - features (recursos, característica)
 GitHub é um serviço de hospedagem para gerenciamemento de repositórios - serviço semelhante, pode ser encontrado no bitbucket
 Pode ser armazenado de forma privada ou pública
 
-
-
-
-
-
 //---
+
+COMANDOS git, para a criação (inicialização - git init)
+
+Uma vez já instalado o GIT no computador, selecionada a respectiva pasta com os arquivos, no terminal, deve ser escrito o seguinte comando:
+git init
+
+Para selecionar a respectiva pasta, podem ser inseridos os seguintes comandos:
+1º - deve ser selecionado o hd onde se encontra a pasta: por. ex. d:
+2º - deve ser chamada a pasta com o seguinte comando: cd pasta
+3º - eventualmente, caso haja uma subpasta, deve ser chamada com o mesmo comando: cd subpasta
+4º - caso ainda não tenha sido inicializado o repositório da respectiva pasta, é possível verificar essa condição a partir do seguinte comando:
+git status
+A mensagem de retorno demonstrará se há ou não um repositório na pasta
+
+Para inicializar o projeto num repositório, deve ser usado o comando:
+git init
+Com esse comando, a respectiva pasta começa a ser reconhecida como um repositório git
+A pasta relacionada ao repositório é uma pasta oculta do tipo .git
+
+Nessa etapa, ainda será necessário realizar a adição com o camando, para que os arquivos de determinada pasta seja monitorado pelo git 
+git add
+
+Posteriormente, será necessário realizar o "commit"
+
+
+
+
+
 
