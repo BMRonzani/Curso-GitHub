@@ -34,5 +34,19 @@ git config --global user.email "@gmail.com" (entre as aspas deve ser inserido o 
 Para verificar o user name configurado, deve ser usado o comando:
 git config user.email
 
+FUNDAMENTOS
+//---
+* Repositório (repo) --- online e offline
+Local onde os arquivos e projetos ficam armazenados 
+Gerenciameento de versões - features (recursos, característica)
 
+GitHub é um serviço de hospedagem para gerenciamemento de repositórios - serviço semelhante, pode ser encontrado no bitbucket
+Pode ser armazenado de forma privada ou pública
+
+
+
+
+
+
+//---
 
