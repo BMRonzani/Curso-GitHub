@@ -1,0 +1,26 @@
+Para a instalação do GIT, o endereço é: git-scm.com
+
+//---
+Após o dowload, já escolhida a versão apropriada, verifica-se no GIT, o branch "ramificação" 
+- que é aquela que vai estar ativa, o nome é "master", diferentemente do GITHUB, o branch é "main"
+Portanto, é possível igualar, quando da instalação, ambos para "main"
+//---
+
+É possível utilizar o CMD, GIT bash, ou mesmo vincular o uso do GIT vinculado ao VisualCode 
+- a vinculação deve ser realizada quando da instalação do GIT
+
+//---
+
+Após a instalação, para confirmar que está funcionando corretamente, no prompt de comando deve-se
+digitar o seguinte comando:
+
+git --version
+
+Se estiver correta a instalação, aparecerá a versão instalada
+
+Interessante ficar atento para a característica específica dos comandos em GIT, pois, em sua linguagem
+os comandos nativos são precedidos de dois traços: ex. --help
+
+//---
+
+
