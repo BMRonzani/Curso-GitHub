@@ -107,6 +107,11 @@ Para sair da tela do git log, deve ser escrita a letra q 2 vezes
 
 Com o comando git checkout (espaço) e o nome do arquivo.(ponto)extensão, o arquivo desejado volta ao status anterior (original)
 
+Para ignorar pastas e arquivos indesejados para o envio para o Github, pode ser utilizado o comando:
+1º - deve ser criado um arquivo .gitignore
+2º - deve ser adicionado ao arquivo .gitignore, os arquivos e pastas indesejados 
+3º - arquivos indesejados devem der indicados com o nome do arquivo
+4º - pastas indesejadas devem ser referenciadas com barra(/) e o nome da pasta
 
 
 
