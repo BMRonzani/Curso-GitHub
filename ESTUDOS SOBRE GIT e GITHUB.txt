@@ -103,7 +103,15 @@ Antes disso, no site do github, na aba code, deve-se copiar o endereço
 
 Para acessar o log do projeto/arquivo, é possível utilizar o seguinte comando: git log
 
-Para sair da tela do git log, deve ser escrita a letra q 2 vezes, ou control q
+Para sair da tela do git log, deve ser escrita a letra q 2 vezes
+
+Com o comando git checkout (espaço) e o nome do arquivo.(ponto)extensão, o arquivo desejado volta ao status anterior (original)
+
+
+
+
+
+
 
 
 
