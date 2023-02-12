@@ -122,6 +122,16 @@ Com esse comando, o último commit e push realizado para o github volta a ser co
 A forma correta de uso desse comando é:
 git reset --hard origin/main
 
+*Branch
+
+É uma forma que serve para separar, gerenciar, versões do projeto.
+Ao iniciar um projeto, ele sempre inicia na Branch main.
+
+Por convenção, a Branch main é considerada a matriz, master, ou, em outras palavras, é o arquivo melhor desenvolvido até aquele momento.
+Dessa forma, para alterações colaterais do arquivo, sem que haja mudança no atual, até que uma nova versão esteja mais apta, convém traalhar numa Branch derivada para, posteriormente, realizar uma merge, que é a junção (mistura) das versões contidas nos Branchs diversos.
+
+
+
 
 
 
