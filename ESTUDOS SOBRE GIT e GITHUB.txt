@@ -78,7 +78,7 @@ control + s, salva o arquivo
 
 Posteriormente, será necessário realizar o "commit" para o repositório; que, em português pode ser traduzido por entregar, enviar, consignar, etc.
 O comando correspondente é:
-git commit ESTUDOS SOBRE GIT.txt -m "feature" (digita-se git, depois commit, depois o nome do arquivo.(ponto)extensão do arquivo, traço m e, entre aspas, o comentário - relativo aos recursos (feature), que foram inovados)
+git commit ESTUDOS SOBRE GIT.txt -m "feature" (digita-se git, depois commit, traço m e, entre aspas, o comentário - relativo aos recursos (feature), que foram inovados)
 -m é uma flag que sinaliza que está sendo inserida uma mensagem, por ex. "Anotações sobre estudos a respeito de GIT e GITHUB"
 
 É possível realizar o comando git commit para todos os arquivos da mesma pasta de uma só vez, da seguinte forma:
@@ -90,10 +90,13 @@ Nessa etapa, os arquivos já estão prontos para serem enviados para o GitHub
 
 É um servidor online de gerenciamento de repositórios (privado ou público) - tbm serve como uma rede de desenvolvedores
 
-É necessário criar uma conta do GITHUB
+É necessário criar uma conta do GITHUB - site: github.com
+
+No site do github deve-se criar um novo repositório e configurá-lo para privado ou público, além de nomeá-lo
+
+Ao criar um novo repositório, aparecerá alguns comandos; como nas sugestões, todos devem ser realizados com copia e cola.
 
 
-*O envio para o GitHub é feito pelo comando:
 
 
 
