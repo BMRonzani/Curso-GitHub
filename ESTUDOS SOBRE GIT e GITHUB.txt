@@ -98,6 +98,10 @@ Ao criar um novo repositório, aparecerá alguns comandos; como nas sugestões, 
 
 Com o comando: git pull, é possível buscar um arquivo que está online, porém, que ainda não está no repositório offline, git
 
+Para clonar o repositório, é possível utilizar o comando: git clone + o url copiado (se colocar um ponto, após o url, o clone será enviado sem criar uma nova pasta)
+Antes disso, no site do github, na aba code, deve-se copiar o endereço
+
+
 
 
 
