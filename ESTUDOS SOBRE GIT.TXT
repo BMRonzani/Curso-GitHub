@@ -1,3 +1,7 @@
+GIT e GITHUB
+
+1. *GIT
+
 Para a instalação do GIT, o endereço é: git-scm.com
 
 //---
@@ -67,10 +71,32 @@ A pasta relacionada ao repositório é uma pasta oculta do tipo .git
 Nessa etapa, ainda será necessário realizar a adição com o camando, para que os arquivos de determinada pasta seja monitorado pelo git 
 git add (deve ser colocado o nome do arquivo com sua respectiva extensão, por ex. nomedoarquivo.txt)
 caso queira adicionar todos os arquivos da pasta, basta escrever o comando: git add . (espaço e ponto, para pegar todos os arquivos e todas as extensões)
+diz-se de um arquivo adicionado, que ele, agora, está "trackeado"
+
+Em cada uma das etapas descritas acima é possível verificar a evolução do status, mediante o comando git status
+control + s, salva o arquivo
+
+Posteriormente, será necessário realizar o "commit" para o repositório; que, em português pode ser traduzido por entregar, enviar, consignar, etc.
+O comando correspondente é:
+git commit ESTUDOS SOBRE GIT.txt -m "feature" (digita-se git, depois commit, depois o nome do arquivo.(ponto)extensão do arquivo, traço m e, entre aspas, o comentário - relativo aos recursos (feature), que foram inovados)
+-m é uma flag que sinaliza que está sendo inserida uma mensagem, por ex. "Anotações sobre estudos a respeito de GIT e GITHUB"
+
+É possível realizar o comando git commit para todos os arquivos da mesma pasta de uma só vez, da seguinte forma:
+Ao invés de, após o comando git commit, ser colocado o nome do arquivo e sua extensão, deve-se, após o comando git commit, apens dar um espaço e colocar a flag -m, com posterior descrição da feature correspondente
+
+Nessa etapa, os arquivos já estão prontos para serem enviados para o GitHub
+
+2. *GITHUB
+
+É um servidor online de gerenciamento de repositórios (privado ou público) - tbm serve como uma rede de desenvolvedores
+
+É necessário criar uma conta do GITHUB
+
+
+*O envio para o GitHub é feito pelo comando:
 
 
 
-Posteriormente, será necessário realizar o "commit"
 
 
 
