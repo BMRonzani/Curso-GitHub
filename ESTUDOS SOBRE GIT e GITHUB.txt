@@ -113,6 +113,20 @@ Para ignorar pastas e arquivos indesejados para o envio para o Github, pode ser 
 3º - arquivos indesejados devem der indicados com o nome do arquivo
 4º - pastas indesejadas devem ser referenciadas com barra(/) e o nome da pasta
 
+Dessa forma, o arquivo gitignore será adicionado ao projeto, entretanto, as pastas e arquivos nele indicadas NÃO serão enviados para o github
+
+Outro comando importante é o: git reset
+Esse comando deve ser usado com cautela, pois uma vez realizado, não há como voltar atrás
+Basicamente, ele reseta tudo o que foi codificado antes de realizar o commit e o push
+Com esse comando, o último commit e push realizado para o github volta a ser considerado como arquivos e pastas originais
+A forma correta de uso desse comando é:
+git reset --hard origin/main
+
+
+
+
+
+
 
 
 
