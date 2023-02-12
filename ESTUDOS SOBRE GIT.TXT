@@ -82,7 +82,7 @@ git commit ESTUDOS SOBRE GIT.txt -m "feature" (digita-se git, depois commit, dep
 -m é uma flag que sinaliza que está sendo inserida uma mensagem, por ex. "Anotações sobre estudos a respeito de GIT e GITHUB"
 
 É possível realizar o comando git commit para todos os arquivos da mesma pasta de uma só vez, da seguinte forma:
-Ao invés de, após o comando git commit, ser colocado o nome do arquivo e sua extensão, deve-se, após o comando git commit, apens dar um espaço e colocar a flag -m, com posterior descrição da feature correspondente
+Ao invés de, após o comando git commit, ser colocado o nome do arquivo e sua extensão, deve-se, após o comando git commit, apens colocar um ponto (para que encontre todos os tipos de extensões de arquivos), dar um espaço e colocar a flag -m, com posterior descrição da feature correspondente
 
 Nessa etapa, os arquivos já estão prontos para serem enviados para o GitHub
 
