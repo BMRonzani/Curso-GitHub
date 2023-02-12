@@ -130,6 +130,29 @@ Ao iniciar um projeto, ele sempre inicia na Branch main.
 Por convenção, a Branch main é considerada a matriz, master, ou, em outras palavras, é o arquivo melhor desenvolvido até aquele momento.
 Dessa forma, para alterações colaterais do arquivo, sem que haja mudança no atual, até que uma nova versão esteja mais apta, convém traalhar numa Branch derivada para, posteriormente, realizar uma merge, que é a junção (mistura) das versões contidas nos Branchs diversos.
 
+Para pesquisar quais são as Branch ativas no projeto, é possível realizar o comando:
+git branch 
+
+Para criar uma nova Branch, deve-se utilizar o seguinte comando:
+git branch (+ o nome da nova branch, por ex. git branch nova_branch)
+
+Para mudar de uma Branch para outra, deve-se utilizar o seguinte comando:
+git checkout (+ o nome da branch desejada para ser a ativa, por ex. git checkout nova_branch)
+
+É recomendável o salvamento e realização de commit, push, etc. antes de alterar a branch ativa, para não perder trabalho desenvolvido.
+Outra recomendação é a criação de novas branch a partir da branch principal, para evitar subramificações dos trabalhos, o que diminui o poder de controle sobre as versões.
+
+Há ainda, um comando para criar e, simultaneamente, alterar para a branch criada a branch ativa, que é:
+git checkout -b(flag) "nome da nova_branch2"
+git checkout -b ""
+
+
+
+
+
+
+
+
 
 
 
