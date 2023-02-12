@@ -146,6 +146,10 @@ Há ainda, um comando para criar e, simultaneamente, alterar para a branch criad
 git checkout -b(flag) "nome da nova_branch2"
 git checkout -b ""
 
+Para apagar uma branch o comando:
+git branch -d(flag) "nome da branch objeto do delete"
+git branch -d ""
+
 
 
 
