@@ -165,6 +165,20 @@ Para reverter o stash (escondido):
 Para verificar o conteúdo das stash é possível utilizar o seguinte código:
 git stash show -p +(o número do id da stash)
 
+*TAG
+
+Tags servem para, por exemplo, marcar o número da versão do projeto
+Para criar a tag, o comando é, por ex.:
+ git tag -a(flag) v1.0 -m ""
+Para verificar a tag, o comando é:
+git tag
+
+
+
+
+
+
+
 
 
 
