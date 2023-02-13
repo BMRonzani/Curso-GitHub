@@ -173,6 +173,22 @@ Para criar a tag, o comando é, por ex.:
 Para verificar a tag, o comando é:
 git tag
 
+Para visualizar o que tem numa determinada tag, deve ser executado o seguinte comando:
+git show v1.0(nome da tag)
+
+Para alternar as tags, deve ser executado o comando:
+git checkout v1.0(nome da tag)
+
+Para eviar tags para o github, deve ser executado o seguinte comando:
+git push origin v1.0(nome da tag) - nesse caso, envia uma tag específica
+Para mandar todas as tags, o comando é:
+git push origin --tags
+
+
+
+
+
+
 
 
 
