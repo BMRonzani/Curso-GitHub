@@ -184,6 +184,23 @@ git push origin v1.0(nome da tag) - nesse caso, envia uma tag específica
 Para mandar todas as tags, o comando é:
 git push origin --tags
 
+Para criar uma branch vinculada a um determinado projeto, em outra instância, após criar uma pasta e vinculá-la ao git, deve ser executado o comando git clone + endenreço de url disponível no github
+Após, para criar uma nova branch, deve ser executado o comando git branch + nome da branch
+git add .
+git commit . -m ""
+
+Finalmente, para enviar essa nova branch para o github, o comando é:
+git push --set-upstream origin + nome da branch
+
+Para encontrar as branch criadas em outras instâncias, o comando é:
+git fetch -a(flag)
+
+Uma vez encontrada a nova branch, o comando para acessar é:
+git checkout +nome da nova branch
+
+
+
+
 
 
 
