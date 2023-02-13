@@ -6,25 +6,23 @@ Para a instalação do GIT, o endereço é: git-scm.com
 
 //---
 Após o dowload, já escolhida a versão apropriada, verifica-se no GIT, o branch "ramificação" 
-- que é aquela que vai estar ativa, o nome é "master", diferentemente do GITHUB, o branch é "main"
-Portanto, é possível igualar, quando da instalação, ambos para "main"
+- que é aquela que vai estar ativa, o nome é no GIT é "master", diferentemente do GITHUB, o branch é "main"
+Portanto, é possível igualar, quando da instalação, ambos para "main".
 //---
 
-É possível utilizar o CMD, GIT bash, ou mesmo vincular o uso do GIT vinculado ao VisualCode 
-- a vinculação deve ser realizada quando da instalação do GIT
-
+É possível utilizar o CMD, GIT bash, ou mesmo vincular o uso do GIT ao VisualCode 
+- a vinculação deve ser realizada quando da instalação do GIT.
 //---
 
-Após a instalação, para confirmar que está funcionando corretamente, no prompt de comando deve-se
+Após a instalação, para confirmar que está funcionando corretamente, no prompt de comando, deve-se
 digitar o seguinte comando:
 
 git --version
 
-Se estiver correta a instalação, aparecerá a versão instalada
+Se estiver correta a instalação, aparecerá a versão instalada.
 
-Interessante ficar atento para a característica específica dos comandos em GIT, pois, em sua linguagem
-os comandos nativos são precedidos de dois traços: ex. --help
-
+Interessante ficar atento para a característica específica dos comandos em GIT, pois, em sua linguagem,
+os comandos nativos são precedidos de dois traços: ex. --help.
 //---
 
 CONFIGURANDO CREDENCIAIS
@@ -34,9 +32,10 @@ git config --global user.name "dev" (entre as aspas deve ser inserido o user nam
 Para verificar o user name configurado, deve ser usado o comando:
 git config user.name
 
-git config --global user.email "@gmail.com" (entre as aspas deve ser inserido o user name)
-Para verificar o user name configurado, deve ser usado o comando:
+git config --global user.email "@gmail.com" (entre as aspas deve ser inserido o email).
+Para verificar o email configurado, deve ser usado o comando:
 git config user.email
+//---
 
 FUNDAMENTOS
 //---
@@ -45,131 +44,183 @@ FUNDAMENTOS
 Local onde os arquivos e projetos ficam armazenados 
 Gerenciameento de versões - features (recursos, característica)
 
-GitHub é um serviço de hospedagem para gerenciamemento de repositórios - serviço semelhante, pode ser encontrado no bitbucket
-Pode ser armazenado de forma privada ou pública
+GitHub é um serviço de hospedagem para gerenciamemento de repositórios 
+- serviço semelhante, pode ser encontrado no bitbucket.
 
+Arquivos e pastas podem ser armazenados de forma privada ou pública.
 //---
 
 COMANDOS git, para a criação (inicialização - git init)
 
-Uma vez já instalado o GIT no computador, selecionada a respectiva pasta com os arquivos, no terminal, deve ser escrito o seguinte comando:
+Uma vez já instalado o GIT no computador, selecionada a respectiva pasta com os arquivos, no terminal, 
+deve ser escrito o seguinte comando:
 git init
 
+//---
 Para selecionar a respectiva pasta, podem ser inseridos os seguintes comandos:
+
 1º - deve ser selecionado o hd onde se encontra a pasta: por. ex. d:
 2º - deve ser chamada a pasta com o seguinte comando: cd pasta
 3º - eventualmente, caso haja uma subpasta, deve ser chamada com o mesmo comando: cd subpasta
-4º - caso ainda não tenha sido inicializado o repositório da respectiva pasta, é possível verificar essa condição a partir do seguinte comando:
+4º - caso ainda não tenha sido inicializado o repositório da respectiva pasta, 
+é possível verificar essa condição a partir do seguinte comando:
 git status
-A mensagem de retorno demonstrará se há ou não um repositório na pasta
+A mensagem de retorno demonstrará se há ou não um repositório na pasta.
 
 Para inicializar o projeto num repositório, deve ser usado o comando:
 git init
 Com esse comando, a respectiva pasta começa a ser reconhecida como um repositório git
 A pasta relacionada ao repositório é uma pasta oculta do tipo .git
 
-Nessa etapa, ainda será necessário realizar a adição com o camando, para que os arquivos de determinada pasta seja monitorado pelo git 
+Nessa etapa, ainda será necessário realizar a adição com o camando, para que os arquivos 
+de determinada pasta sejam monitorados pelo git: 
 git add (deve ser colocado o nome do arquivo com sua respectiva extensão, por ex. nomedoarquivo.txt)
-caso queira adicionar todos os arquivos da pasta, basta escrever o comando: git add . (espaço e ponto, para pegar todos os arquivos e todas as extensões)
-diz-se de um arquivo adicionado, que ele, agora, está "trackeado"
 
-Em cada uma das etapas descritas acima é possível verificar a evolução do status, mediante o comando git status
-control + s, salva o arquivo
+*caso queira adicionar todos os arquivos da pasta, basta escrever o comando: 
+git add . (espaço e ponto, para pegar todos os arquivos e todas as extensões de uma determinada pasta).
+Diz-se de um arquivo adicionado, que ele, agora, está "trackeado".
 
-Posteriormente, será necessário realizar o "commit" para o repositório; que, em português pode ser traduzido por entregar, enviar, consignar, etc.
+Em cada uma das etapas descritas acima é possível verificar a evolução do status, 
+mediante o comando git status.
+
+Control(Ctrl) + s, salva o arquivo.
+
+Posteriormente, será necessário realizar o "commit" para o repositório; 
+que, em português pode ser traduzido por entregar, enviar, consignar, etc.
+
 O comando correspondente é:
-git commit ESTUDOS SOBRE GIT.txt -m "feature" (digita-se git, depois commit, traço m e, entre aspas, o comentário - relativo aos recursos (feature), que foram inovados)
--m é uma flag que sinaliza que está sendo inserida uma mensagem, por ex. "Anotações sobre estudos a respeito de GIT e GITHUB"
+git commit nome do arquivo.extensão(por ex., ESTUDOS SOBRE GIT.txt) -m(flag -m) e, entre aspas, 
+uma mensagem descritiva dos recursos alterados "feature" 
+(digita-se git, depois commit, traço m e, entre aspas, o comentário - relativo aos recursos (feature), 
+que foram inovados). -m é uma flag que sinaliza que está sendo inserida uma mensagem, 
+por ex. "Anotações sobre estudos a respeito de GIT e GITHUB"
 
-É possível realizar o comando git commit para todos os arquivos da mesma pasta de uma só vez, da seguinte forma:
-Ao invés de, após o comando git commit, ser colocado o nome do arquivo e sua extensão, deve-se, após o comando git commit, apens colocar um ponto (para que encontre todos os tipos de extensões de arquivos), dar um espaço e colocar a flag -m, com posterior descrição da feature correspondente
+É possível realizar o comando git commit para todos os arquivos da mesma pasta de uma só vez, 
+da seguinte forma:
+Ao invés de, após o comando git commit, ser colocado o nome do arquivo e sua extensão, 
+deve-se, após o comando git commit, apenas colocar um ponto 
+(para que encontre todos os tipos de extensões de arquivos), 
+dar um espaço e colocar a flag -m, com posterior descrição da feature correspondente (entre aspas duplas)
 
-Nessa etapa, os arquivos já estão prontos para serem enviados para o GitHub
+Nessa etapa, os arquivos já estão prontos para serem enviados para o GitHub.
 
 2. *GITHUB
 
-É um servidor online de gerenciamento de repositórios (privado ou público) - tbm serve como uma rede de desenvolvedores
+É um servidor online de gerenciamento de repositórios (privado ou público) - 
+tbm serve como uma rede para desenvolvedores.
 
 É necessário criar uma conta do GITHUB - site: github.com
 
-No site do github deve-se criar um novo repositório e configurá-lo para privado ou público, além de nomeá-lo
+No site do github deve-se criar um novo repositório e configurá-lo para privado ou público, 
+além de nomeá-lo.
 
-Ao criar um novo repositório, aparecerá alguns comandos; como nas sugestões, todos devem ser realizados com copia e cola.
+Ao criar um novo repositório, aparecerá alguns comandos; 
+como nas sugestões, todos devem ser realizados com copia e cola.
 
-Com o comando: git pull, é possível buscar um arquivo que está online, porém, que ainda não está no repositório offline, git
+Com o comando: git pull, é possível buscar um arquivo que está online, porém, 
+que ainda não está no repositório offline, git.
 
-Para clonar o repositório, é possível utilizar o comando: git clone + o url copiado (se colocar um ponto, após o url, o clone será enviado sem criar uma nova pasta)
-Antes disso, no site do github, na aba code, deve-se copiar o endereço
+Para clonar o repositório, é possível utilizar o comando: 
+git clone + o url copiado (se colocar um ponto, após o url, 
+o clone será enviado sem criar uma nova pasta).
 
-Para acessar o log do projeto/arquivo, é possível utilizar o seguinte comando: git log
+Antes disso, no site do github, na aba code, deve-se copiar o endereço url.
 
-Para sair da tela do git log, deve ser escrita a letra q 2 vezes
+Para acessar o log do projeto/arquivo, é possível utilizar o seguinte comando: 
+git log
 
-Com o comando git checkout (espaço) e o nome do arquivo.(ponto)extensão, o arquivo desejado volta ao status anterior (original)
+Para sair da tela do git log, deve ser escrita a letra q 2 vezes.
+
+Com o comando git checkout (espaço) e o nome do arquivo.(ponto)extensão, 
+o arquivo desejado volta ao status anterior (original).
 
 Para ignorar pastas e arquivos indesejados para o envio para o Github, pode ser utilizado o comando:
-1º - deve ser criado um arquivo .gitignore
-2º - deve ser adicionado ao arquivo .gitignore, os arquivos e pastas indesejados 
-3º - arquivos indesejados devem der indicados com o nome do arquivo
-4º - pastas indesejadas devem ser referenciadas com barra(/) e o nome da pasta
 
-Dessa forma, o arquivo gitignore será adicionado ao projeto, entretanto, as pastas e arquivos nele indicadas NÃO serão enviados para o github
+1º - deve ser criado um arquivo .gitignore, dentro da pasta matriz do GIT;
+2º - deve ser adicionado ao arquivo .gitignore, os arquivos e pastas indesejados, 
+mediante escrita no mesmo;
+2.1 - arquivos indesejados devem der indicados com o nome do arquivo;
+2.2 - pastas indesejadas devem ser referenciadas com barra(/) e o nome da pasta;
+
+Dessa forma, o arquivo gitignore será adicionado ao projeto, entretanto, 
+as pastas e arquivos nele indicadas NÃO serão enviados para o github.
+//---
 
 Outro comando importante é o: git reset
-Esse comando deve ser usado com cautela, pois uma vez realizado, não há como voltar atrás
-Basicamente, ele reseta tudo o que foi codificado antes de realizar o commit e o push
+
+Esse comando deve ser usado com cautela, pois uma vez realizado, não há como voltar atrás.
+Basicamente, ele reseta tudo o que foi codificado antes de realizar o último commit e push.
 Com esse comando, o último commit e push realizado para o github volta a ser considerado como arquivos e pastas originais
 A forma correta de uso desse comando é:
 git reset --hard origin/main
+//---
 
 *Branch
 
-É uma forma que serve para separar, gerenciar, versões do projeto.
-Ao iniciar um projeto, ele sempre inicia na Branch main.
+É uma das formas que serve para separar, gerenciar, versões do projeto.
+Ao iniciar um projeto, ele sempre inicia na Branch main(que, normalmente, é usado como o principal).
 
-Por convenção, a Branch main é considerada a matriz, master, ou, em outras palavras, é o arquivo melhor desenvolvido até aquele momento.
-Dessa forma, para alterações colaterais do arquivo, sem que haja mudança no atual, até que uma nova versão esteja mais apta, convém traalhar numa Branch derivada para, posteriormente, realizar uma merge, que é a junção (mistura) das versões contidas nos Branchs diversos.
+Por convenção, a Branch main é considerada a matriz, master, ou, em outras palavras, 
+é o arquivo melhor(no sentido de acabamento) e mais atual, desenvolvido até aquele momento.
+
+Dessa forma, para alterações colaterais do arquivo, sem que haja mudança no atual, 
+até que uma nova versão esteja mais apta, convém trabalhar numa Branch derivada 
+para, posteriormente, realizar uma merge, 
+que é a junção (mistura) das versões contidas nos Branchs diversos.
 
 Para pesquisar quais são as Branch ativas no projeto, é possível realizar o comando:
 git branch 
 
 Para criar uma nova Branch, deve-se utilizar o seguinte comando:
-git branch (+ o nome da nova branch, por ex. git branch nova_branch)
+git branch (+ o nome da nova branch, por ex. git branch nova_branch).
 
-Para mudar de uma Branch para outra, deve-se utilizar o seguinte comando:
-git checkout (+ o nome da branch desejada para ser a ativa, por ex. git checkout nova_branch)
+Para mudar(ativar) de uma Branch para outra, deve-se utilizar o seguinte comando:
+git checkout (+ o nome da branch desejada para ser a ativa, por ex. git checkout nova_branch).
 
-É recomendável o salvamento e realização de commit, push, etc. antes de alterar a branch ativa, para não perder trabalho desenvolvido.
-Outra recomendação é a criação de novas branch a partir da branch principal, para evitar subramificações dos trabalhos, o que diminui o poder de controle sobre as versões.
+É recomendável o salvamento e realização de commit, push, etc. antes de alterar a branch ativa, 
+para não perder trabalho desenvolvido.
+
+Outra recomendação é a criação de novas branch a partir da branch principal, 
+para evitar subramificações dos trabalhos, o que diminui o poder de controle sobre as versões.
 
 Há ainda, um comando para criar e, simultaneamente, alterar para a branch criada a branch ativa, que é:
-git checkout -b(flag) "nome da nova_branch2"
+git checkout -b(flag -b) "nome da nova_branch2"
 git checkout -b ""
 
 Para apagar uma branch o comando a ser utilizado é:
-git branch -d(flag) "nome da branch objeto do delete"
+git branch -d(flag -d) "nome da branch objeto do delete"
 git branch -d ""
 
-O comando git merge serve para fundir(unir) as versões dos branch (principal e derivados, por convenção)
-O comando deve ser realizada na branch que receberá as atualizações com a chamada do nome da branch fonte das alterações
-git merge nome_da_brach_fonte
+O comando git merge serve para fundir(unir) as versões dos branch (principal e derivados, por convenção);
+O comando deve ser realizada na branch que receberá as atualizações com a chamada do nome da branch fonte
+das alterações:
+git merge nome_da_branch_fonte
 
-O comando git stash serve para voltar à versão do último commit, entretanto, com esse comando, é possível reverter essa ação
-O comando deve ser realizado na branch que será modificado
+O comando git stash(escondido) serve para voltar à versão do último commit, entretanto, 
+com esse comando, é possível reverter essa ação.
+
+O comando deve ser realizado na branch que será modificada:
 git stash
 
 Para reverter o stash (escondido):
-1º - deve ser realizado o comando git stash list, para que apareçam as rash (que é uma sequencia alfanumérica), especificamente, o id (que ficará entre chaves{}, com a respectiva numeração sequencial)
-2º - deve ser realizado o comando git stash apply +(número da id) - por ex. git stash apply 0, onde 0 é a mais recente e, as mais antigas vão sendo acrescidas de um número sequencial (1,2,3,4 etc)
+
+1º - deve ser realizado o comando git stash list, 
+para que apareçam as rash (que é uma sequencia alfanumérica), especificamente, 
+o id (que ficará entre chaves{}, com a respectiva numeração sequencial);
+
+2º - deve ser realizado o comando git stash apply +(número da id) - 
+por ex. git stash apply 0, onde 0 é a mais recente e, 
+as mais antigas vão sendo acrescidas de um número sequencial (1,2,3,4 etc).
 
 Para verificar o conteúdo das stash é possível utilizar o seguinte código:
 git stash show -p +(o número do id da stash)
+//---
 
 *TAG
 
-Tags servem para, por exemplo, marcar o número da versão do projeto
-Para criar a tag, o comando é, por ex.:
- git tag -a(flag) v1.0 -m ""
+Tags servem para, por exemplo, marcar o número da versão do projeto.
+Para criar uma tag, o comando é, por ex.:
+git tag -a(flag -a) v1.0 -m ""
 Para verificar a tag, o comando é:
 git tag
 
@@ -184,8 +235,12 @@ git push origin v1.0(nome da tag) - nesse caso, envia uma tag específica
 Para mandar todas as tags, o comando é:
 git push origin --tags
 
-Para criar uma branch vinculada a um determinado projeto, em outra instância, após criar uma pasta e vinculá-la ao git, deve ser executado o comando git clone + endenreço de url disponível no github
-Após, para criar uma nova branch, deve ser executado o comando git branch + nome da branch
+Para criar, em outra instância, uma branch vinculada a um determinado projeto,
+após criar uma pasta e vinculá-la ao git, deve ser executado o comando 
+git clone + endenreço de url disponível no github
+
+Após, para criar uma nova branch, deve ser executado o comando: 
+git branch + nome da branch
 git add .
 git commit . -m ""
 
@@ -193,12 +248,13 @@ Finalmente, para enviar essa nova branch para o github, o comando é:
 git push --set-upstream origin + nome da branch
 
 Para encontrar as branch criadas em outras instâncias, o comando é:
-git fetch -a(flag)
+git fetch -a(flag -a)
 
 Uma vez encontrada a nova branch, o comando para acessar é:
 git checkout +nome da nova branch
 
-Para sincronizar atualizações de uma branch nova, o comando utilizado é git pull
+Para sincronizar atualizações de uma branch nova, o comando utilizado é:
+git pull
 
 
 
