@@ -253,8 +253,10 @@ git fetch -a(flag -a)
 Uma vez encontrada a nova branch, o comando para acessar é:
 git checkout +nome da nova branch
 
-Para sincronizar atualizações de uma branch nova, o comando utilizado é:
-git pull
+Para sincronizar atualizações de uma nova branch, o comando utilizado é:
+git pull.
+
+
 
 
 
