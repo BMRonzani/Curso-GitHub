@@ -160,10 +160,10 @@ git reset --hard origin/main
 É uma das formas que serve para separar, gerenciar, versões do projeto.
 Ao iniciar um projeto, ele sempre inicia na Branch main(que, normalmente, é usado como o principal).
 
-Por convenção, a Branch main é considerada a matriz, master, ou, em outras palavras, 
+Por convenção, a Branch main é considerada a principal, matriz, master, ou, em outras palavras, 
 é o arquivo melhor(no sentido de acabamento) e mais atual, desenvolvido até aquele momento.
 
-Dessa forma, para alterações colaterais do arquivo, sem que haja mudança no atual, 
+Dessa forma, para alterações colaterais do arquivo, sem que haja mudança no atual(principal), 
 até que uma nova versão esteja mais apta, convém trabalhar numa Branch derivada 
 para, posteriormente, realizar uma merge, 
 que é a junção (mistura) das versões contidas nos Branchs diversos.
@@ -181,9 +181,10 @@ git checkout (+ o nome da branch desejada para ser a ativa, por ex. git checkout
 para não perder trabalho desenvolvido.
 
 Outra recomendação é a criação de novas branch a partir da branch principal, 
-para evitar subramificações dos trabalhos, o que diminui o poder de controle sobre as versões.
+para evitar subramificações dos trabalhos, o que diminuiria o poder de controle sobre as versões.
 
-Há ainda, um comando para criar e, simultaneamente, alterar para a branch criada a branch ativa, que é:
+Há ainda, um comando para criar e, simultaneamente, alterar para a branch criada a branch ativa, 
+que é:
 git checkout -b(flag -b) "nome da nova_branch2"
 git checkout -b ""
 
