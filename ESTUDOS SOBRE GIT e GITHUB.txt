@@ -267,6 +267,15 @@ e apresenta um relatório do histórico
 
 Comando: git diff
 Serve para comparar as diferenças entre o arquivo do git com o do github
+Para comparar um arquivo específico, o comando é:
+git diff HEAD: +nome do arquivo
+Para comparar pastas, o comando é:
+git diff HEAD: /+nome da pasta
+
+Comando: git reflog
+Exibe os detalhes precisos feitos num determinado repositório
+
+
 
 
 
