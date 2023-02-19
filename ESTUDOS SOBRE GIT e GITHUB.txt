@@ -192,9 +192,10 @@ Para apagar uma branch o comando a ser utilizado é:
 git branch -d(flag -d) "nome da branch objeto do delete"
 git branch -d ""
 
-O comando git merge serve para fundir(unir) as versões dos branch (principal e derivados, por convenção);
-O comando deve ser realizada na branch que receberá as atualizações com a chamada do nome da branch fonte
-das alterações:
+O comando git merge serve para fundir(unir) as versões dos branch (principal e derivados, 
+por convenção);
+O comando deve ser realizada na branch que receberá as atualizações com a chamada do nome 
+da branch fonte das alterações:
 git merge nome_da_branch_fonte
 
 O comando git stash(escondido) serve para voltar à versão do último commit, entretanto, 
