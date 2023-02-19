@@ -258,6 +258,19 @@ git checkout +nome da nova branch
 Para sincronizar atualizações de uma nova branch, o comando utilizado é:
 git pull.
 
+Comando: git gc (abreviação de 'garbage collection' - coleta de lixo)
+Serve para melhorar a performance do github
+
+Comando: git shortlog
+Aglomera todos os commits feitos por todos os usuários relacionados ao repositório objeto
+e apresenta um relatório do histórico 
+
+Comando: git diff
+Serve para comparar as diferenças entre o arquivo do git com o do github
+
+
+
+
 
 
 
