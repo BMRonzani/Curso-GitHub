@@ -275,6 +275,25 @@ git diff HEAD: /+nome da pasta
 Comando: git reflog
 Exibe os detalhes precisos feitos num determinado repositório
 
+# ISSUES
+Para que serve?
+-Abrir tarefas para novas funcionalidades 
+(é possível atribuir uma tarefa a um colaborador, criar label, poe ex.);
+-Abrir tarefas para corrigir um bug, por ex.;
+
+Aba ISSUES no github
+
+# PULL REQUESTS
+Para que serve?
+-Sempre que se cria uma nova branch, 
+aparecerá no site do github uma aba com a label Compare & Pull REQUESTS
+-Quando acionada essa função o arquivo derivado é o Compare e ele servirá de fonte para O
+pull REQUESTS e a base, é a main
+
+Serve para, ao final de um trabalho, realizar uma merge das Branchs, com controle diferenciado 
+por comentários e interações entre colaboradores
+
+
 
 
 
