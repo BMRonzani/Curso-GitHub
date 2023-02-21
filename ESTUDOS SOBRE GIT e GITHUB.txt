@@ -333,6 +333,15 @@ asteriscos depois do texto
 
 Para itálico, deve ser usado o underline antes e depois do texto _ _ 
 
+Para colocar uma imagem, deve ser utilizado ! [] (), onde esclamação, abre-se os colchetes, 
+com o título do logo e dentro dos parenteses, deve ser colocado o url, endereço, 
+de onde está a imagem
+
+Redes sociais
+[Instagram] (https://instagram.com/bronzani)
+[Youtube] (https://youtube.com/c/nome da conta)
+
+
 
 
 
