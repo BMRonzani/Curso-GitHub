@@ -344,9 +344,9 @@ Redes sociais
 Listas
 Ordenadas (OL) e Não Ordenadas(UL)
 
-Nas não Ordenadas, basta utilizar o asterisco
-* texto
-* texto 2
+Nas não Ordenadas, basta utilizar o traço
+- texto
+- texto 2
 
 Nas ordenadas, deve ser utilizado um numeral seguido de ponto, por ex. 1., 2.
 1. texto
@@ -368,9 +368,25 @@ Para destacar um trecho código, convém utilizar uma sequencia de 3 aspas simpl
 '''
 
 Para especificar o highlite (destaque de programação, na linguagem utilizada)
-é possível utilizar o marckdown no github que reconhece algumas das linguagens
+é possível utilizar o marckdown no github que reconhece algumas das linguagens (js, html, css)
 '''js
 '''
+
+TASKLIST
+traço, colchetes
+- [ ]
+- [x]
+
+
+TABELAS
+Colunas e linhas
+Pipe | serve para dividir as Colunas
+-----|------------ (traços servem para criar linhas)
+texto da primeira coluna | texto da segunda coluna
+
+
+
+
 
 
 
