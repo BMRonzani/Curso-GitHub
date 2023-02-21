@@ -293,6 +293,52 @@ pull REQUESTS e a base, é a main
 Serve para, ao final de um trabalho, realizar uma merge das Branchs, com controle diferenciado 
 por comentários e interações entre colaboradores
 
+É possível realizar um link da Issue com a Pull Requests (aba contida no site github)
+
+* Wiki
+Parecido com wikipedia
+
+*Projects
+Aba útil para unificar todo o conteúdo contido no github
+Parecido com o trello, kanban, scrum
+
+* Gist
+Serve para compartilhar uma parte ou bloco de códigos
+Pode ser secreto ou público
+É enviado pela url, no site github
+
+HEADINGS
+linguagem MarkDown - linguagem de marcação
+background em html
+
+Para títulos e subtítulos devem ser utilizados os hashtags
+
+1 hashtag = Título principal - equivalente ao h1 em html
+#
+2 hashtags = Subtítulo - equivalente ao h2 em hatml
+##
+3 hashtags = Subtítulo - equivalente ao h3 em hatml
+###
+4 hashtags = Subtítulo - equivalente ao h4 em hatml
+####
+5 hashtags = Subtítulo - equivalente ao h5 em hatml
+#####
+6 hashtags = Subtítulo - equivalente ao h6 em hatml
+######
+
+Para destaques (ênfase no texto), os comandos são:
+
+Para negrito, devem ser usados dois asteriscos antes do texto que ficará em negrito e dois 
+asteriscos depois do texto
+
+Para itálico, deve ser usado o underline antes e depois do texto _ _ 
+
+
+
+
+
+
+
 
 
 
