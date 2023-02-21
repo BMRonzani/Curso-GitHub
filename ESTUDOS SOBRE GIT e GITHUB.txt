@@ -341,6 +341,53 @@ Redes sociais
 [Instagram] (https://instagram.com/bronzani)
 [Youtube] (https://youtube.com/c/nome da conta)
 
+Listas
+Ordenadas (OL) e Não Ordenadas(UL)
+
+Nas não Ordenadas, basta utilizar o asterisco
+* texto
+* texto 2
+
+Nas ordenadas, deve ser utilizado um numeral seguido de ponto, por ex. 1., 2.
+1. texto
+2. texto 2
+
+Com dois TABS é possível escrever os subitens (nos subitens a numeração que aparecerá no github
+será em números romanos)
+
+
+BLOCKCODE (>)
+
+Serve para destacar uma determinada área do texto
+deve ser utilizado o sinal do de maior >
+Para quebra de linha, deve ser usado um blockcode "vazio"
+>
+
+Para destacar um trecho código, convém utilizar uma sequencia de 3 aspas simples
+'''
+'''
+
+Para especificar o highlite (destaque de programação, na linguagem utilizada)
+é possível utilizar o marckdown no github que reconhece algumas das linguagens
+'''js
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
