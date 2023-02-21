@@ -384,6 +384,33 @@ Pipe | serve para dividir as Colunas
 -----|------------ (traços servem para criar linhas)
 texto da primeira coluna | texto da segunda coluna
 
+Menus e Links 
+Primeiro, coloca-se, entre colchetes o nome a ser atribuído 
+Segundo, coloca-se o pipe | para dividir o Menus
+Terceiro, na página do github, ao selecionar o item highlite, é possível verificar o endereço
+no github (url), devendo-se copiar a parte final do endereço, a partir do hashtag e colocá-lo
+entre parenteses, para criar o link dentro do README
+
+Páginas estáticas podem ser hospedadas gratuitamente no github
+
+Primeiro, deve ser criado um repositório com o seguinte critério:
+nome do domínio, por ex. BMRonzani
+ponto, github
+ponto, io
+da seguinte forma:
+
+BMRonzani.github.io
+
+Depois, dentro do repositório principal, deve ser criada uma pasta para receber o clone
+git clone + url
+
+Cria-se uma pasta index.html
+na codificação, pode-se digitar: html5 (o vscode traz snipes automáticos)
+
+
+
+
+
 
 
 
