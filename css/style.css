@@ -51,7 +51,7 @@ img:haver{
     cursor: pointer;
 }
 
-.conteiner div a: :first-child{
+.conteiner div a:first-child{
     padding-right: 7px;
 }
 
