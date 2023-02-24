@@ -35,8 +35,8 @@ git config user.name
 git config --global user.email "@gmail.com" (entre as aspas deve ser inserido o email).
 Para verificar o email configurado, deve ser usado o comando:
 git config user.email
-//---
 
+//---
 FUNDAMENTOS
 //---
 
