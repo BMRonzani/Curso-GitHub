@@ -114,8 +114,10 @@ tbm serve como uma rede para desenvolvedores.
 No site do github deve-se criar um novo repositório e configurá-lo para privado ou público, 
 além de nomeá-lo.
 
+//---
 Ao criar um novo repositório, aparecerá alguns comandos; 
 como nas sugestões, todos devem ser realizados com copia e cola.
+//---
 
 Com o comando: git pull, é possível buscar um arquivo que está online, porém, 
 que ainda não está no repositório offline, git.
